@@ -1,0 +1,70 @@
+html, body {
+    margin: 0px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+
+
+#firstChoice, #secondChoice {
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-size: cover;
+    transition: transform 0.3 ease;
+}
+
+
+#firstChoice p,
+#secondChoice p {
+    transition: transform 0.3s ease; 
+}
+
+#firstChoice:hover p,
+#secondChoice:hover p {
+    transform: scale(1.1); 
+    transform: rotate(-5deg);
+}
+
+
+p {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    border: black 3px solid;
+}
+
+#divForBtn {
+    display: none;
+    position: absolute;
+    left: 860px;
+    bottom: 200px;
+}
+
+#nextBtn {
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    border: black 2px solid;
+}
+
+#nextBtn:hover {
+    background-color: rgb(226, 223, 223);
+}
