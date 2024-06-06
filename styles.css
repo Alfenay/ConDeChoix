@@ -7,8 +7,6 @@ main {
     display: flex;
 }
 
-
-
 #firstChoice, #secondChoice {
     width: 50%;
     height: 100vh;
@@ -22,7 +20,6 @@ main {
     transition: transform 0.3 ease;
 }
 
-
 #firstChoice p,
 #secondChoice p {
     transition: transform 0.3s ease; 
@@ -33,7 +30,6 @@ main {
     transform: scale(1.1); 
     transform: rotate(-5deg);
 }
-
 
 p {
     padding: 20px;
